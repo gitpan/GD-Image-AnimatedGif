@@ -4,7 +4,8 @@ use strict;
 use warnings;
 use GD; # gdlib v 2.0.33 or later required
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
+sub VERSION { $VERSION; }
 
 sub GD::Image::animated_gif {
   my ($im,$lp,$ft,$fc,$sp,$x,$y,$ar,$cd) = @_;
@@ -71,7 +72,7 @@ So you can have this be your entire script, actual animation creation is on one 
 
     use strict;
     use warnings;
-    use GD::image::AnimatedGif;
+    use GD::Image::AnimatedGif;
 
     print "Content-type: image/gif\n\n";
     print GD::Image->new(50,20)->animated_gif_easy(0,[qw(10 9 8 7 6 5 4 3 2 1 0 Liftoff!)]);
@@ -152,6 +153,8 @@ Or to create an animation based on a series of still images:
     print GD::Image->new(25,25)->animated_gif_easy(1,1,\@image_file_paths,$frame_handler);
 
 =head1 SEE ALSO
+
+See script example info at url in "AUTHOR" section below for "Secret Decoder Ring" script as an neat usage example ;p
 
     L<GD>
 

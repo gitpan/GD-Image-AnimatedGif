@@ -1,6 +1,10 @@
 Revision history for Perl extension GD::Image::AnimatedGif.
 
+0.02 Mon Jan 17 19:14:30 2005
+        - added VERSION() which I left out accidentally before
+        - POD error correction (thanks Mike Castle ;p)
+        - Added "Secret Decoder Ring" example info to POD
+
 0.01  Mon Jan  3 19:35:42 2005
 	- original version; created by h2xs 1.22 with options
 		-AXc -n GD::Image::AnimatedGif
-

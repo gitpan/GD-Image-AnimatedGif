@@ -1,6 +1,6 @@
 #XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
 name:         GD-Image-AnimatedGif
-version:      0.01
+version:      0.02
 version_from: AnimatedGif.pm
 installdirs:  site
 requires:
