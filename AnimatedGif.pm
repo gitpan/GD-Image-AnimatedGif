@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use GD; # gdlib v 2.0.33 or later required
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 sub VERSION { $VERSION; }
 
 sub GD::Image::animated_gif {
