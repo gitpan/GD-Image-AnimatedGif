@@ -4,8 +4,7 @@ use strict;
 use warnings;
 use GD; # gdlib v 2.0.33 or later required
 
-our $VERSION = '0.04';
-sub VERSION { $VERSION; }
+our $VERSION = '0.05';
 
 sub GD::Image::animated_gif {
   my ($im,$lp,$ft,$fc,$sp,$x,$y,$ar,$cd) = @_;
